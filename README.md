@@ -61,7 +61,39 @@ This tool removes the complexity of Unturned’s NPC system and replaces it with
 - Ready to drop into your Unturned server or mod project
 
 ### 📤 Install
-- npm Install
-- npm run
-- npm Start
+```bash
+git clone https://github.com/YOUR_USERNAME/unturned-npc-builder.git
+cd unturned-npc-builder
+```
+- `npm run`
+- `npm Start`
 
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.  
+If you want to add modules (Quests, Conditions, Waypoints, Multi‑Dialogue Trees), feel free to open an issue or feature request.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support the Project
+
+If this tool helps your server or modding workflow, consider starring the repo.  
+It helps visibility and encourages future updates.
+
+---
+
+## 🚀 Next Steps (Optional Enhancements)
+
+Potential future modules:
+
+- Quest Builder  
+- Condition Builder
+- Theme customization 
