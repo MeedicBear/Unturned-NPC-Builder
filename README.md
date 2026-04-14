@@ -88,7 +88,7 @@ It helps visibility and encourages future updates.
 
 ---
 
-## 🚀 Next Steps (Optional Enhancements)
+## 🚀 Updates (WIP)
 
 Potential future modules:
 
