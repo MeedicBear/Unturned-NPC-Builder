@@ -1,0 +1,15 @@
+{
+  "name": "unturned-npc-builder",
+  "version": "1.0.0",
+  "description": "Electron app to create Unturned NPCs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^41.2.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  }
+}

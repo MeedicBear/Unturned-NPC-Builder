@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0b0c10;
+  color: #e5e5e5;
+}
+
+header {
+  padding: 16px 24px;
+  background: #1f2833;
+  border-bottom: 1px solid #45a29e;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 64px);
+}
+
+.left, .right {
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.left {
+  width: 40%;
+  border-right: 1px solid #1f2833;
+}
+
+.right {
+  width: 60%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 4px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #1f2833;
+  background: #0b0c10;
+  color: #e5e5e5;
+}
+
+button {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #45a29e;
+  background: #1f2833;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+
+button.primary {
+  margin-top: 16px;
+  width: 100%;
+  background: #45a29e;
+  color: #0b0c10;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.dynamic-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.dynamic-row input {
+  flex: 1;
+}
+
+.dynamic-row button {
+  flex: 0 0 auto;
+}
+
+pre {
+  background: #1f2833;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: pre-wrap;
+}

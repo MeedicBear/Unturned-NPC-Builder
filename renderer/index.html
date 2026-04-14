@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unturned NPC Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Unturned NPC Builder</h1>
+    </header>
+
+    <main>
+      <section class="left">
+        <h2>NPC Overview</h2>
+        <label>
+          NPC ID
+          <input id="npcID" type="number" />
+        </label>
+        <label>
+          Name
+          <input id="npcName" type="text" />
+        </label>
+        <label>
+          Dialogue ID
+          <input id="dialogueID" type="number" value="1" />
+        </label>
+        <label>
+          Dialogue Message
+          <textarea id="dialogueMessage" rows="3">Hello survivor.</textarea>
+        </label>
+
+        <h3>Responses</h3>
+        <div id="responses"></div>
+        <button id="addResponseBtn">+ Add Response</button>
+
+        <h3>Vendor Buy Items</h3>
+        <div id="vendorBuy"></div>
+        <button id="addVendorBuyBtn">+ Add Buy Item</button>
+
+        <h3>Vendor Sell Items</h3>
+        <div id="vendorSell"></div>
+        <button id="addVendorSellBtn">+ Add Sell Item</button>
+
+        <h3>Flags</h3>
+        <div id="flags"></div>
+        <button id="addFlagBtn">+ Add Flag</button>
+
+        <button id="exportBtn" class="primary">Export NPC</button>
+        <div id="exportStatus"></div>
+      </section>
+
+      <section class="right">
+        <h2>Preview</h2>
+        <h3>NPC.dat</h3>
+        <pre id="previewNpc"></pre>
+
+        <h3>Dialogue.dat</h3>
+        <pre id="previewDialogue"></pre>
+
+        <h3>Vendor.dat</h3>
+        <pre id="previewVendor"></pre>
+
+        <h3>Flags.dat</h3>
+        <pre id="previewFlags"></pre>
+      </section>
+    </main>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
