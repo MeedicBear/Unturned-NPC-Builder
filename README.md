@@ -61,10 +61,8 @@ This tool removes the complexity of Unturned’s NPC system and replaces it with
 - Ready to drop into your Unturned server or mod project
 
 ### 📤 Install
-```bash
-git clone https://github.com/YOUR_USERNAME/unturned-npc-builder.git
-cd unturned-npc-builder
-```
+- `git clone https://github.com/MeedicBear/Unturned-NPC-Builder.git`
+- `cd unturned-npc-builder`
 - `npm run`
 - `npm Start`
 
