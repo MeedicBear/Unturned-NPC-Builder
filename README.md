@@ -58,5 +58,10 @@ This tool removes the complexity of Unturned’s NPC system and replaces it with
   - `Vendor.dat`
   - `Flags.dat`
 - Creates a folder + ZIP archive  
-- Ready to drop into your Unturned server or mod project  
+- Ready to drop into your Unturned server or mod project
+
+### 📤 Install
+- npm Install
+- npm run
+- npm Start
 
